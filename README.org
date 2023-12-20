@@ -14,8 +14,13 @@ I'm a happy user of dark themes for more than [[https://github.com/aartaka/lacon
 | White      | ~#ffefd5~ | ~#fff8f8~      |
 
 And here's how it looks when used. In ST:
+
 [[./neofetch.png]]
+
 In Surf:
+
 [[./surf.png]]
+
 And on my website:
+
 [[./website.png]]
