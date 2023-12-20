@@ -1,0 +1,19 @@
+#+TITLE:Dark Atoll: Warm Coral Theme For Reading
+
+I'm a happy user of dark themes for more than [[https://github.com/aartaka/laconia-theme][three years now]]. I made a theme for [[https://aartaka.me][my website]] and [[https://github.com/aartaka/st][Suckless terminal]] in soft coral colors and decided that it's pretty enough to use everywhere. This repo documents my color choices so that I can reproduce the theme later in whatever software I use. Here are the colors:
+
+| Role       | Color   | Bright variant |
+| Background | #000000 | #090000        |
+| Foreground | #ffefd5 | #fff8f8        |
+| Accent     | #cd5c5c | #f08080        |
+| Red        | #cd5c5c | #fa8072        |
+| Green      | #556b2f | #6b8e23        |
+| Yellow     | #ffa408 | #ffb82b        |
+| Blue       | #3457d5 | #1f75fe        |
+| Purple     | #6f00ff | #8a2be2        |
+| Light Blue | #87d3f8 | #afdbf5        |
+| White      | #ffefd5 | #fff8f8        |
+
+And here's how it looks when used:
+[[./neofetch.png]]
+[[./surf.png]]
