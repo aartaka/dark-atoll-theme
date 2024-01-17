@@ -12,6 +12,9 @@ I'm a happy user of dark themes for more than [[https://github.com/aartaka/lacon
 | Purple           | ~#6f00ff~              | ~#8a2be2~                |
 | Light Blue       | ~#87d3f8~ (pale azure) | ~#afdbf5~ (uranian blue) |
 
+I also often use maroon all over the place (particularly on my
+website), but that's usually a light theme thing.
+
 And here's how it looks when used. In ST:
 
 [[./neofetch.png]]
