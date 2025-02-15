@@ -96,6 +96,23 @@
    `(eshell-ls-archive    ((t (:foreground ,fg))))
    `(eshell-ls-entries    ((t (:foreground ,fg))))
 
+   `(ansi-color-black          ((t :foreground ,bg1 :background ,bg1)))
+   `(ansi-color-bright-black   ((t :foreground ,bg2 :background ,bg2)))
+   `(ansi-color-red            ((t :foreground ,red :background ,red)))
+   `(ansi-color-bright-red     ((t :foreground ,corall :background ,corall)))
+   `(ansi-color-green          ((t :foreground ,olive :background ,olive)))
+   `(ansi-color-bright-green   ((t :foreground ,ok :background ,ok)))
+   `(ansi-color-yellow         ((t :foreground ,highlight :background ,highlight)))
+   `(ansi-color-bright-yellow  ((t :foreground "#ffb82b" :background "#ffb82b")))
+   `(ansi-color-blue           ((t :foreground "#3457d5" :background "#3457d5")))
+   `(ansi-color-bright-blue    ((t :foreground "#1f75fe" :background "#1f75fe")))
+   `(ansi-color-magenta        ((t :foreground "#6f00ff" :background "#6f00ff")))
+   `(ansi-color-bright-magenta ((t :foreground "#8a2be2" :background "#8a2be2")))
+   `(ansi-color-cyan           ((t :foreground "#87d3f8" :background "#87d3f8")))
+   `(ansi-color-bright-cyan    ((t :foreground "#afdbf5" :background "#afdbf5")))
+   `(ansi-color-white          ((t :foreground ,fg :background ,fg)))
+   `(ansi-color-bright-white   ((t :foreground ,fg2 :background ,fg2)))
+
    ;; flyspell
    `(flyspell-incorrect       ((t (:underline (:style wave :color ,red) ))))
    `(flyspell-duplicate       ((t (:underline (:style wave :color ,search)))))
