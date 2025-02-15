@@ -3,21 +3,21 @@
 (provide-theme 'dark-atoll)
 
 
-(let ((bg1 "#000000")
-      (bg2 "#090000")
+(let* ((bg1 "#000000")
+       (bg2 "#280000")
 
-      (fg "#ffefd5")
-      (fg2 "#fff8f8")
+       (fg "#ffefd5")
+       (fg2 "#fff8f8")
 
-      (search "#cd5c5c")
-      (search2 "#f08080")
-      (highlight "#ffa408")
+       (search "#cd5c5c")
+       (search2 "#f08080")
+       (highlight "#ffa408")
 
-      (str    "#300000")
-      (red    "#cd5c5c")
-      (corall "#f08080")
-      (ok     "#6b8e23")
-      (olive  "#556b2f"))
+       (str    bg2)
+       (red    "#cd5c5c")
+       (corall "#f08080")
+       (ok     "#6b8e23")
+       (olive  "#556b2f"))
   (custom-theme-set-faces
    'dark-atoll
 
@@ -237,10 +237,6 @@
    `(magit-diff-whitespace-warning ((t (:background ,red))))
 
    `(magit-diff-context-highlight ((t (:foreground ,fg :background ,bg2))))
-   `(magit-diff-added             ((t (:foreground ,fg :background ,olive))))
-   `(magit-diff-added-highlight   ((t (:foreground ,fg :background ,ok))))
-   `(magit-diff-removed           ((t (:foreground ,fg :background ,red))))
-   `(magit-diff-removed-highlight ((t (:foreground ,fg :background ,corall))))
    `(magit-diff-file-header       ((t (:foreground ,fg :background ,bg2))))
    `(magit-diffstat-added         ((t (:foreground ,ok))))
    `(magit-diffstat-removed       ((t (:foreground ,red))))
