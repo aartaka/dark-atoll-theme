@@ -15,6 +15,7 @@
 
       (str    "#300000")
       (red    "#cd5c5c")
+      (corall "#f08080")
       (ok     "#6b8e23")
       (olive  "#556b2f"))
   (custom-theme-set-faces
@@ -219,6 +220,10 @@
    `(magit-diff-whitespace-warning ((t (:background ,red))))
 
    `(magit-diff-context-highlight ((t (:foreground ,fg :background ,bg2))))
+   `(magit-diff-added             ((t (:foreground ,fg :background ,olive))))
+   `(magit-diff-added-highlight   ((t (:foreground ,fg :background ,ok))))
+   `(magit-diff-removed           ((t (:foreground ,fg :background ,red))))
+   `(magit-diff-removed-highlight ((t (:foreground ,fg :background ,corall))))
    `(magit-diff-file-header       ((t (:foreground ,fg :background ,bg2))))
    `(magit-diffstat-added         ((t (:foreground ,ok))))
    `(magit-diffstat-removed       ((t (:foreground ,red))))
