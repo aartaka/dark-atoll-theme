@@ -13,7 +13,6 @@
        (search2 "#f08080")
        (highlight "#ffa408")
 
-       (str    bg2)
        (red    "#cd5c5c")
        (corall "#f08080")
        (ok     "#6b8e23")
@@ -66,9 +65,9 @@
 
    ;; syntax
    `(font-lock-builtin-face              ((t (:foreground ,highlight :italic t))))
-   `(font-lock-comment-delimiter-face    ((t (:background ,str :italic t))))
-   `(font-lock-comment-face              ((t (:background ,str :italic t))))
-   `(font-lock-doc-face                  ((t (:background ,str :italic t))))
+   `(font-lock-comment-delimiter-face    ((t (:background ,bg2 :italic t))))
+   `(font-lock-comment-face              ((t (:background ,bg2 :italic t))))
+   `(font-lock-doc-face                  ((t (:background ,bg2 :italic t))))
    `(font-lock-constant-face             ((t (:foreground ,fg :italic t))))
    `(font-lock-function-name-face        ((t (:foreground ,fg :bold t))))
    `(font-lock-keyword-face              ((t (:foreground ,highlight))))
@@ -79,7 +78,7 @@
    `(font-lock-preprocessor-char-face    ((t (:foreground ,fg))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,fg  :bold t))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,fg  :bold t))))
-   `(font-lock-string-face               ((t (:foreground ,fg  :background ,str))))
+   `(font-lock-string-face               ((t (:foreground ,fg  :background ,bg2))))
    `(font-lock-warning-face              ((t (:foreground ,red))))
 
    ;; eshell
@@ -273,7 +272,7 @@
    `(outline-8 ((t (:foreground ,fg :bold t :extend t))))
 
    ;; org
-   `(org-code                  ((t (:background ,str :distant-foreground ,bg1 :background ,bg2))))
+   `(org-code                  ((t (:background ,bg2 :distant-foreground ,bg1 :background ,bg2))))
    `(org-link                  ((t (:underline t))))
    `(org-block                 ((t (:foreground ,fg :background ,bg2 :extend t))))
    `(org-block-begin-line      ((t (:foreground ,fg :background ,bg2 :bold t :extend t))))
