@@ -24,7 +24,7 @@
    `(shadow   ((t (:background ,bg2))))
    `(hl-line  ((t (:background ,bg2 :extend t))))
 
-   `(region              ((t (:background ,search))))
+   `(region              ((t (:background ,search :foreground ,fg))))
    `(lazy-highlight      ((t (:foreground ,fg :background ,search2))))
    `(secondary-selection ((t (:foreground ,fg :background ,search2))))
    `(highlight           ((t (:foreground ,fg :background ,bg2 :bold t))))
