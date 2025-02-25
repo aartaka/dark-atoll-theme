@@ -127,6 +127,9 @@
    `(cider-test-error-face       ((t (:foreground ,highlight))))
    `(cider-result-overlay-face   ((t (:background ,bg2 :box (:line-width -1 :color ,fg2)))))
 
+   ;; GNUS and Message mode
+   `(gnus-group-mail-3                ((t (:foreground ,highlight :bold t))))
+
    ;; company
    `(company-scrollbar-bg             ((t (:background ,fg))))
    `(company-scrollbar-fg             ((t (:foreground ,fg))))
@@ -148,7 +151,7 @@
    `(compilation-info           ((t (:inherit 'success))))
    `(compilation-mode-line-exit ((t (:inherit 'compilation-info))))
    `(compilation-mode-line-fail ((t (:inherit 'compilation-error))))
-   
+
    ;; TODO
    ;; custom
    `(custom-variable-tag    ((t (:bold t))))
