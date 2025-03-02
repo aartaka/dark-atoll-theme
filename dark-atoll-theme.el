@@ -59,7 +59,7 @@
    `(escape-glyph                ((t (:foreground ,red :bold t))))
    `(homoglyph                   ((t (:foreground ,red :bold t))))
 
-   `(line-number              ((t (:foreground ,fg :background ,black))))
+   `(line-number              ((t (:foreground ,bright-black))))
    `(line-number-current-line ((t (:foreground ,fg2  :background ,black))))
    `(linum                    ((t (:inherit 'line-number))))
 
