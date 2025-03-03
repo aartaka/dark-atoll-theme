@@ -4,7 +4,7 @@
 
 
 (let* ((black "#000000")
-       (bright-black "#550000")
+       (bright-black "#800000")
 
        (fg "#ffefd5")
        (fg2 "#fff8f8")
@@ -65,8 +65,8 @@
 
    ;; syntax
    `(font-lock-builtin-face              ((t (:foreground ,highlight :italic t))))
-   `(font-lock-comment-delimiter-face    ((t (:background ,bright-black :italic t))))
-   `(font-lock-comment-face              ((t (:background ,bright-black :italic t))))
+   `(font-lock-comment-delimiter-face    ((t (:foreground ,bright-black :italic t))))
+   `(font-lock-comment-face              ((t (:foreground ,bright-black :italic t))))
    `(font-lock-doc-face                  ((t (:background ,bright-black :italic t))))
    `(font-lock-constant-face             ((t (:foreground ,fg :italic t))))
    `(font-lock-function-name-face        ((t (:foreground ,fg :bold t))))
