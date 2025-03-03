@@ -4,7 +4,7 @@
 
 
 (let* ((black "#000000")
-       (bright-black "#440000")
+       (bright-black "#550000")
 
        (fg "#ffefd5")
        (fg2 "#fff8f8")
@@ -15,7 +15,7 @@
 
        (red    "#cd5c5c")
        (corall "#f08080")
-       (ok     "#6b8e23")
+       (ok     "#8bae53")
        (olive  "#556b2f"))
   (custom-theme-set-faces
    'dark-atoll
@@ -106,7 +106,7 @@
    `(ansi-color-blue           ((t :foreground "#3457d5" :background "#3457d5")))
    `(ansi-color-bright-blue    ((t :foreground "#1f75fe" :background "#1f75fe")))
    `(ansi-color-magenta        ((t :foreground "#6f00ff" :background "#6f00ff")))
-   `(ansi-color-bright-magenta ((t :foreground "#8a2be2" :background "#8a2be2")))
+   `(ansi-color-bright-magenta ((t :foreground "#aa4bf2" :background "#8a2be2")))
    `(ansi-color-cyan           ((t :foreground "#87d3f8" :background "#87d3f8")))
    `(ansi-color-bright-cyan    ((t :foreground "#afdbf5" :background "#afdbf5")))
    `(ansi-color-white          ((t :foreground ,fg :background ,fg)))
