@@ -11,7 +11,7 @@
 
        (search "#cd5c5c")
        (search2 "#f08080")
-       (highlight "#ffa408")
+       (highlight "#f08080")
 
        (red    "#cd5c5c")
        (corall "#f08080")
