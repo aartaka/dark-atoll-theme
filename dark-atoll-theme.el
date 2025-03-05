@@ -101,7 +101,7 @@
    `(ansi-color-bright-red     ((t :foreground ,corall :background ,corall)))
    `(ansi-color-green          ((t :foreground ,olive :background ,olive)))
    `(ansi-color-bright-green   ((t :foreground ,ok :background ,ok)))
-   `(ansi-color-yellow         ((t :foreground ,highlight :background ,highlight)))
+   `(ansi-color-yellow         ((t :foreground "#ffa408" :background "#ffa408")))
    `(ansi-color-bright-yellow  ((t :foreground "#ffb82b" :background "#ffb82b")))
    `(ansi-color-blue           ((t :foreground "#3457d5" :background "#3457d5")))
    `(ansi-color-bright-blue    ((t :foreground "#1f75fe" :background "#1f75fe")))
