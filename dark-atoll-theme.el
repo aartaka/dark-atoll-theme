@@ -16,7 +16,8 @@
        (red    "#cd5c5c")
        (corall "#f08080")
        (ok     "#8bae53")
-       (olive  "#556b2f"))
+       (olive  "#556b2f")
+       (gray   "gray"))
   (custom-theme-set-faces
    'dark-atoll
 
@@ -65,8 +66,8 @@
 
    ;; syntax
    `(font-lock-builtin-face              ((t (:foreground ,highlight :italic t))))
-   `(font-lock-comment-delimiter-face    ((t (:foreground ,bright-black :italic t))))
-   `(font-lock-comment-face              ((t (:foreground ,bright-black :italic t))))
+   `(font-lock-comment-delimiter-face    ((t (:foreground ,gray :italic t))))
+   `(font-lock-comment-face              ((t (:foreground ,gray :italic t))))
    `(font-lock-doc-face                  ((t (:background ,bright-black :italic t))))
    `(font-lock-constant-face             ((t (:foreground ,fg :italic t))))
    `(font-lock-function-name-face        ((t (:foreground ,fg :bold t))))
@@ -78,7 +79,7 @@
    `(font-lock-preprocessor-char-face    ((t (:foreground ,fg))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,fg  :bold t))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,fg  :bold t))))
-   `(font-lock-string-face               ((t (:foreground ,fg  :background ,bright-black))))
+   `(font-lock-string-face               ((t (:foreground ,black  :background ,gray))))
    `(font-lock-warning-face              ((t (:foreground ,red))))
 
    ;; eshell
@@ -271,11 +272,11 @@
    `(outline-8 ((t (:foreground ,fg :bold t :extend t))))
 
    ;; org
-   `(org-code                  ((t (:background ,bright-black :distant-foreground ,black :background ,bright-black))))
+   `(org-code                  ((t (:background ,gray :distant-foreground ,black))))
    `(org-link                  ((t (:underline t))))
-   `(org-block                 ((t (:foreground ,fg :background ,bright-black :extend t))))
-   `(org-block-begin-line      ((t (:foreground ,fg :background ,bright-black :bold t :extend t))))
-   `(org-block-end-line        ((t (:foreground ,fg :background ,bright-black :bold t :extend t))))
+   `(org-block                 ((t (:foreground ,fg :background ,gray :extend t))))
+   `(org-block-begin-line      ((t (:foreground ,fg :background ,gray :bold t :extend t))))
+   `(org-block-end-line        ((t (:foreground ,fg :background ,gray :bold t :extend t))))
    `(org-drawer                ((t (:foreground ,fg :bold t))))
    `(org-document-info         ((t (:foreground ,fg :background ,black :italic t))))
    `(org-document-info-keyword ((t (:foreground ,fg :background ,black))))
