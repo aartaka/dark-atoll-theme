@@ -79,7 +79,7 @@
    `(font-lock-preprocessor-char-face    ((t (:foreground ,fg))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,fg  :bold t))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,fg  :bold t))))
-   `(font-lock-string-face               ((t (:foreground ,black  :background ,gray))))
+   `(font-lock-string-face               ((t (:foreground ,gray))))
    `(font-lock-warning-face              ((t (:foreground ,red))))
 
    ;; eshell
@@ -272,11 +272,11 @@
    `(outline-8 ((t (:foreground ,fg :bold t :extend t))))
 
    ;; org
-   `(org-code                  ((t (:background ,gray :distant-foreground ,black))))
+   `(org-code                  ((t (:background ,bright-black :distant-foreground ,black))))
    `(org-link                  ((t (:underline t))))
-   `(org-block                 ((t (:foreground ,fg :background ,gray :extend t))))
-   `(org-block-begin-line      ((t (:foreground ,fg :background ,gray :bold t :extend t))))
-   `(org-block-end-line        ((t (:foreground ,fg :background ,gray :bold t :extend t))))
+   `(org-block                 ((t (:foreground ,fg :background ,bright-black :extend t))))
+   `(org-block-begin-line      ((t (:foreground ,fg :background ,bright-black :bold t :extend t))))
+   `(org-block-end-line        ((t (:foreground ,fg :background ,bright-black :bold t :extend t))))
    `(org-drawer                ((t (:foreground ,fg :bold t))))
    `(org-document-info         ((t (:foreground ,fg :background ,black :italic t))))
    `(org-document-info-keyword ((t (:foreground ,fg :background ,black))))
