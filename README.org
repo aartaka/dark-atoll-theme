@@ -3,7 +3,7 @@
 I'm a happy user of dark themes for more than [[https://github.com/aartaka/laconia-theme][three years now]]. I made a theme for [[https://aartaka.me][my website]] and [[https://github.com/aartaka/st][Suckless terminal]] in soft coral colors and decided that it's pretty enough to use everywhere. This repo documents my color choices so that I can reproduce the theme later in whatever software I use. Here are the colors:
 
 | Role             | Color                  | Bright variant           |
-| Background/Black | ~#000000~ (black)      | ~#550000~                |
+| Background/Black | ~#000000~ (black)      | ~#090000~-~#550000~       |
 | Foreground/White | ~#ffefd5~              | ~#fff8f8~                |
 | Accent/Red       | ~#cd5c5c~ (indian red) | ~#f08080~ (lightcoral)   |
 | Green            | ~#556b2f~              | ~#8bae53~ (olive drab)    |
